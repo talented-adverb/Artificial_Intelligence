@@ -23,5 +23,5 @@ def TSP(graph,s):
     return min_path
 
 graph=[[0,10,15,20],[10,0,35,25],[15,35,0,30],[20,25,30,0]]
-s=0
+s=int(input("Enter the starting point(0-3)"))
 print(TSP(graph,s))
