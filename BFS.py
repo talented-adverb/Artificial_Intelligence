@@ -1,4 +1,4 @@
-import collections #used to creat queue
+import collections #used to create queue
 
 def bfs(graph,root):
     visited=set()
